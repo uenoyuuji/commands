@@ -7,7 +7,10 @@
     "pretest": "npm install",
     "test": "node_modules/jasmine-node/bin/jasmine-node spec"
   },
-  "repository": "git@github.com:uenoyuuji/commands.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uenoyuuji/commands.git"
+  },
   "author": "uenoyuuji",
   "license": "BSD",
   "devDependencies": {
