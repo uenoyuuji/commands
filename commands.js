@@ -1,5 +1,5 @@
 /**
- * key 
+ * Returns an object that defined commands.
  * @param {Object} commands
  */
 exports.define = function(commands) {
@@ -8,7 +8,8 @@ exports.define = function(commands) {
     }
     return {
         /**
-         * @param {Function(applied:Boolean, command:String, argv:String[])} callback
+         * Apply the defined commands to arguments.
+         * @param {Function(applied:Boolean, command:String, args:String[])} callback
          */
         apply: function(callback) {
             var argv = process.argv.slice(2);
