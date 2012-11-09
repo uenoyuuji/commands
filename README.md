@@ -23,9 +23,9 @@ Define command and the corresponding callback with `define` function.
 var definedCommands = require('commands').define({
     help: function() {
         console.log('Usage: ');
-        console.log('    help              - show this message');
-        console.log('    rm <file>...      - do anything (1)');
-        console.log('    touch <src> <dst> - do anything (2)');
+        console.log('    help           - show this message');
+        console.log('    rm <file>...   - do anything (1)');
+        console.log('    ln <src> <dst> - do anything (2)');
     },
     rm: function() {
         Array.prototype.slice.apply(arguments).forEach(function(file) {
