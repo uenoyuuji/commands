@@ -10,7 +10,7 @@ Install
 You can install with `npm`.
 
 ```bash
-npm install git@github.com:uenoyuuji/commands.git
+npm install git://github.com/uenoyuuji/commands.git
 ```
 
 
