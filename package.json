@@ -1,6 +1,6 @@
 {
   "name": "commands",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "command parser",
   "main": "commands.js",
   "scripts": {
