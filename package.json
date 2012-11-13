@@ -5,10 +5,10 @@
   "main": "commands.js",
   "scripts": {
     "pretest": "npm install",
-    "test": "node_modules/jasmine-node/bin/jasmine-node spec"
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec --verbose"
   },
   "repository": {
-   "type": "git",
+    "type": "git",
     "url": "git://github.com/uenoyuuji/commands.git"
   },
   "author": "uenoyuuji",
